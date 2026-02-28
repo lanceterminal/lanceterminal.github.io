@@ -20,8 +20,8 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     front_page_content = ["posts"]
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = false},
-        {Name = "Research", URL = "/research/", HasChildren = true, Limit = 2}
+        {Name = "Posts", URL = "/posts/", HasChildren = false},
+        {Name = "Research", URL = "/research/", Pre = "Recent", HasChildren = true, Limit = 2}
     ]
 
 
